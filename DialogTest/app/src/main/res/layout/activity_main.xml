@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog" />
+
+     <Button
+        android:id="@+id/buttonNoticeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice Dialog by Using DialogFrgment"
+         android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/buttonListDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice List by Using DialogFrgment"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonListDialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice List by Using DialogFrgment2"
+        android:textAllCaps="false"/>
+</LinearLayout>
