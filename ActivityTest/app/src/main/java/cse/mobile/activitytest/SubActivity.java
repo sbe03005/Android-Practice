@@ -33,7 +33,6 @@ public class SubActivity extends AppCompatActivity {
             etSubInput.setHint(getIntent().getStringExtra("mainReturnStr"));
         }
 
-
         Button btSubOK = findViewById(R.id.btSubOK);
         btSubOK.setOnClickListener(new View.OnClickListener() {
             @Override
