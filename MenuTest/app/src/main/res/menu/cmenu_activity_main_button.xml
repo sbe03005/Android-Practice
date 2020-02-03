@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Create"
+        android:id="@+id/cmenuCreate"
+        android:icon="@mipmap/ic_launcher"/>
+
+    <item android:title="Delete"
+        android:id="@+id/cmenuDelete"
+        android:icon="@mipmap/ic_launcher"/>
+
+</menu>
