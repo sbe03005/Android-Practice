@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // 체이닝
                 new AlertDialog.Builder(MainActivity.this)
-                        .setMessage("Time Out!")
+                        .setView()
                         .setTitle("Notice")
                         .setIcon(R.mipmap.ic_launcher)
                         .setPositiveButton("Close",
